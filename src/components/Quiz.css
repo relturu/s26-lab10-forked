@@ -3,11 +3,15 @@ TODO: Enhance User Experience by adding visual highlights to selected answers.
 Hint: You can use the className attribute for highlighting. */
 .selected {
     cursor: pointer; /* Change cursor on hover for interactivity */
+    background-color: rgb(32, 88, 200);
+    border-width: 5px;
+    border-color: rgba(22, 63, 145, 0.97);
   }
   
   /* Additional styling for better user experience */
   .selected:hover {
     cursor: pointer;
+    background-color: rgb(39, 106, 239);
   }
   
   
